@@ -1,0 +1,123 @@
+.container {
+    padding-top: 50px;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    transform: translateY(-180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank-logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.login-header {
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.input-fields {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 249, 249);
+    border-radius: 5px;
+    box-shadow: 1px 10px 20px -12px #413f3f;;
+    -webkit-box-shadow: 1px 10px 20px -12px #413f3f;;
+    -moz-box-shadow: 1px 10px 20px -12px #413f3f;;
+    border: none;
+    padding: 10px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+.login-btn {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: rgb(185,66,59);
+    background: linear-gradient(270deg, rgba(185,66,59,1) 0%, rgba(199,81,75,1) 35%, rgba(220,108,101,1) 81%, rgba(228,116,110,1) 100%);
+    box-shadow: 1px 10px 20px -12px #413f3f;;
+    -webkit-box-shadow: 1px 10px 20px -12px #413f3f;;
+    -moz-box-shadow: 1px 10px 20px -12px #413f3f;;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    width: 350px;
+    margin: 15px 0;
+}
+
+.sign-up {
+    cursor: pointer;
+    color: #ba433c;
+    text-decoration: underline;
+}
+
+/* MODAL */
+.reg-container {
+    color: #413f3f;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.reg-header {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.reg-header:after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+.reg-label {
+    font-size: 22px;
+    align-self: flex-start;
+    display: block;
+}
+
+.reg-input {
+    font-size: 14px;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    align-self: flex-start;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 10px 20px -12px #413f3f;;
+    -webkit-box-shadow: 1px 10px 20px -12px #413f3f;;
+    -moz-box-shadow: 1px 10px 20px -12px #413f3f;;
+}
+
+.reg-btn {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    padding: 4px 12px;
+    border: none;
+    background-color: #605e5e;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.reg-btn:hover {
+    background-color: #413f3f;
+}
+
